@@ -5,6 +5,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .hero {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 80px 30px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .profile-pic {
+      width: 260px;
+      height: 260px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+      flex-shrink: 0;
+    }
+
+    .hero-text {
+      flex: 1;
+    }
+
+    .hero-text h1 {
+      font-size: 2.8em;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      font-size: 1.2em;
+      line-height: 1.8;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero-text h1 {
+        font-size: 2em;
+      }
+
+      .profile-pic {
+        margin-bottom: 20px;
+      }
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background-color: #1a1a1a;
+      color: white;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -20,15 +76,10 @@
   </header>
 
   <section class="hero">
-    <img src="images/your-photo.jpg" alt="Your Photo" class="profile-pic">
-    <h1>Hello, I'm Mustafa Atakan Tan</h1>
-    <p>Your tagline or one-liner here.</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Your Name. All rights reserved.</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+    <img src="images/1731384012425.jpg" alt="Mustafa Atakan Tan" class="profile-pic" />
+    <div class="hero-text">
+      <h1>Hello, I'm Mustafa Atakan Tan</h1>
+      <p>
+        I hold a Bachelor's degree in Computer Science from California State University, Fullerton, and bring a unique blend of tech expertise and real-world business leadership to the table. Before diving deep into software development, I managed a successful furniture retail business — overseeing operations, leading sales teams, and delivering excellent customer experiences. That hands-on management experience shaped my leadership skills, work ethic, and ability to solve problems under pressure.
+        <br><br>
+        Today, I’m a versatile developer with experience building mobile apps, responsive websites, and cloud-integrated systems. My technical stack includes Android Studio, Kotlin, Java, Firebase, REST APIs, JavaScript, React, SQL, AWS, Docker, and Git. I’ve contributed to production-level mobile app development as a Software Developer Intern, working in agile teams and applying CI

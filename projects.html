@@ -6,6 +6,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projects</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .projects {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 60px 30px;
+    }
+
+    .projects h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.5em;
+    }
+
+    .project-item {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 25px;
+      margin-bottom: 30px;
+      background-color: #f9f9f9;
+    }
+
+    .project-item h2 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    .project-item p {
+      line-height: 1.6;
+      font-size: 1.05em;
+    }
+
+    .project-item a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #4b00a8;
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -22,15 +60,28 @@
 
   <section class="projects">
     <h1>My Projects</h1>
+
     <div class="project-item">
-      <h2>Project Title</h2>
-      <p>Description, tech used, challenges, outcome.</p>
-      <a href="project1.html">More Details</a>
+      <h2>GamePath</h2>
+      <p><strong>Technologies:</strong> HTML, CSS, JavaScript | <strong>GitHub</strong> – Apr. 2025</p>
+      <p>Built a full-stack game review app with user authentication, real-time reviews, search functionality using third-party game APIs, and advanced filtering by genre, platform, and rating. Users can write and rate reviews. Data is stored in Firebase Realtime Database.</p>
+    </div>
+
+    <div class="project-item">
+      <h2>OC Room Finder</h2>
+      <p><strong>Technologies:</strong> Java, Kotlin, Android Studio, Firebase | <strong><a href="https://play.google.com/store/apps/details?id=com.ocroomfinder.oc&pli=1">Play Store Link</a></strong> – Jul. 2024</p>
+      <p>Developed a rental room listing app that features Firebase authentication, real-time room post listings, image uploads, location-based search, and contact options. Supports multiple user roles for tenants and landlords.</p>
+    </div>
+
+    <div class="project-item">
+      <h2>Cloud-Enabled Car Dealership System</h2>
+      <p><strong>Technologies:</strong> SQL, Java, JavaScript | <strong><a href="#">Website Link</a></strong> – Nov. 2024</p>
+      <p>Created a Java backend hosted on AWS EC2 with MySQL on RDS. The system includes an admin panel for managing car listings and a frontend with real-time search and filtering by price, model, year, and availability. Communicates via RESTful APIs.</p>
     </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 Your Name. All rights reserved.</p>
+    <p>&copy; 2025 Mustafa Atakan Tan. All rights reserved.</p>
   </footer>
 </body>
 </html>
