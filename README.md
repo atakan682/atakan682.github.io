@@ -2,7 +2,7 @@
 
 This is my personal portfolio website built to showcase my background, skills, and projects as a software developer. It includes an About section, project listings, technical skills, and a contact form.
 
-🌐 Live site: [https://atakan682.github.io/atakan682.github.io/](https://atakan682.github.io/atakan682.github.io/)
+🌐 Live site: [https://atakan682.github.io/atakan682/](https://atakan682.github.io/atakan682/)
 
 ---
 
